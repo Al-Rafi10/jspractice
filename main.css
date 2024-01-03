@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing_area{
+    /* width: 1536px;
+    height: 729px;
+    background-color: antiquewhite; */
+    width: 100%;
+    height: 100vh;
+  
+    background-image: url("./image/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+   
+}
+.blob{
+    width: 35rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url("/image/blob.svg");
+    animation: bloba 5s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    
+}
+.blob svg{
+    height: 41rem;
+}
+
+@keyframes bloba{
+     0%{
+        scale: 0.5;
+     }
+     50%{
+        scale: 1.05;
+     }
+     100%{
+        scale: 0.5;
+     }
+}
+.text{
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+.nd{
+    width: 100%;
+    height: 20rem;
+}
+.one{
+    width: 5rem;
+    height: 10rem;
+}
